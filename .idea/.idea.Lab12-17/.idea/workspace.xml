@@ -7,16 +7,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53caff36-d96c-491b-a2ec-27c34d6a786d" name="Changes" comment="" />
+    <list default="true" id="53caff36-d96c-491b-a2ec-27c34d6a786d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SleepyOwO"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SleepyOwO/Lab12-17.git",
+    "accountId": "1e36a454-2cad-447a-ad50-c390c81c257e"
+  }
+}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2sarEcN7W4s9ibjqZMqVFdpJNXn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +53,7 @@
   "keyToString": {
     ".NET Project.Lab12-17.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,13 +90,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738704417248</updated>
-      <workItem from="1738704424307" duration="1783000" />
+      <workItem from="1738704424307" duration="2688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
