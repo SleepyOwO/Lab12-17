@@ -1,0 +1,10 @@
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\bin\Debug\Lab12_17.exe.config
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\bin\Debug\Lab12_17.exe
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\bin\Debug\Lab12_17.pdb
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.Properties.Resources.resources
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.GenerateResource.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.exe
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.pdb
+C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.Form1.resources
