@@ -120,7 +120,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dataGridView1.RowTemplate.Height = 29;
+            this.dataGridView1.RowTemplate.Height = 32;
             this.dataGridView1.Size = new System.Drawing.Size(801, 315);
             this.dataGridView1.TabIndex = 1;
             // 
