@@ -8,11 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53caff36-d96c-491b-a2ec-27c34d6a786d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" afterDir="false" />
     </list>
@@ -27,22 +29,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SleepyOwO"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SleepyOwO&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SleepyOwO/Lab12-17.git",
-    "accountId": "1e36a454-2cad-447a-ad50-c390c81c257e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SleepyOwO/Lab12-17.git&quot;,
+    &quot;accountId&quot;: &quot;1e36a454-2cad-447a-ad50-c390c81c257e&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2sarEcN7W4s9ibjqZMqVFdpJNXn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +55,7 @@
   "keyToString": {
     ".NET Project.Lab12-17.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,8 +93,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738704417248</updated>
-      <workItem from="1738704424307" duration="2688000" />
+      <workItem from="1738704424307" duration="3063000" />
+      <workItem from="1739204009488" duration="4000" />
+      <workItem from="1739343202183" duration="5399000" />
+      <workItem from="1739357610713" duration="4580000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete design">
+      <option name="closed" value="true" />
+      <created>1738707240005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738707240005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Design v2">
+      <option name="closed" value="true" />
+      <created>1738707389620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738707389620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +124,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Complete design" />
+    <MESSAGE value="Design v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design v2" />
   </component>
 </project>
