@@ -8,3 +8,13 @@ C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debu
 C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.exe
 C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.pdb
 C:\Users\kiril\Desktop\Лабы\2 курс\СиАОД\Lab12-17\Lab12-17\obj\Debug\Lab12_17.Form1.resources
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12_17.exe
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12_17.pdb
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12_17.Form1.resources
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12_17.Properties.Resources.resources
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.GenerateResource.Cache
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\bin\Debug\Lab12_17.exe.config
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\bin\Debug\Lab12_17.exe
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\bin\Debug\Lab12_17.pdb
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\Lab12-17\Lab12-17\obj\Debug\Lab12-17.csproj.CoreCompileInputs.cache

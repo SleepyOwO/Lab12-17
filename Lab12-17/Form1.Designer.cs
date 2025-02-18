@@ -27,7 +27,8 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -54,26 +55,29 @@
             this.panel1.Controls.Add(this.sort_btn);
             this.panel1.Controls.Add(this.numericUpDown1);
             this.panel1.Controls.Add(this.exit_btn);
-            this.panel1.Location = new System.Drawing.Point(0, 314);
+            this.panel1.Location = new System.Drawing.Point(0, 255);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(833, 137);
+            this.panel1.Size = new System.Drawing.Size(824, 111);
             this.panel1.TabIndex = 0;
             // 
             // num_label
             // 
             this.num_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.num_label.Location = new System.Drawing.Point(15, 19);
+            this.num_label.Location = new System.Drawing.Point(11, 15);
+            this.num_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.num_label.Name = "num_label";
-            this.num_label.Size = new System.Drawing.Size(287, 37);
+            this.num_label.Size = new System.Drawing.Size(215, 30);
             this.num_label.TabIndex = 3;
             this.num_label.Text = "Размер массива";
             // 
             // sort_btn
             // 
             this.sort_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sort_btn.Location = new System.Drawing.Point(332, 56);
+            this.sort_btn.Location = new System.Drawing.Point(249, 46);
+            this.sort_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sort_btn.Name = "sort_btn";
-            this.sort_btn.Size = new System.Drawing.Size(205, 34);
+            this.sort_btn.Size = new System.Drawing.Size(154, 28);
             this.sort_btn.TabIndex = 2;
             this.sort_btn.Text = "Сортировать";
             this.sort_btn.UseVisualStyleBackColor = true;
@@ -82,10 +86,11 @@
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.numericUpDown1.Location = new System.Drawing.Point(12, 56);
+            this.numericUpDown1.Location = new System.Drawing.Point(9, 46);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(291, 34);
+            this.numericUpDown1.Size = new System.Drawing.Size(218, 28);
             this.numericUpDown1.TabIndex = 1;
             this.numericUpDown1.Tag = "";
             this.numericUpDown1.ThousandsSeparator = true;
@@ -97,9 +102,10 @@
             this.exit_btn.FlatAppearance.BorderSize = 0;
             this.exit_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit_btn.Image = ((System.Drawing.Image)(resources.GetObject("exit_btn.Image")));
-            this.exit_btn.Location = new System.Drawing.Point(688, 24);
+            this.exit_btn.Location = new System.Drawing.Point(745, 25);
+            this.exit_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.exit_btn.Name = "exit_btn";
-            this.exit_btn.Size = new System.Drawing.Size(90, 90);
+            this.exit_btn.Size = new System.Drawing.Size(68, 73);
             this.exit_btn.TabIndex = 0;
             this.exit_btn.UseVisualStyleBackColor = false;
             this.exit_btn.Click += new System.EventHandler(this.exit_btn_Click);
@@ -119,10 +125,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { this.Column1, this.Column2, this.Column3, this.Column4, this.Column5, this.sorting });
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dataGridView1.RowTemplate.Height = 32;
-            this.dataGridView1.Size = new System.Drawing.Size(833, 315);
+            this.dataGridView1.Size = new System.Drawing.Size(824, 256);
             this.dataGridView1.TabIndex = 1;
             // 
             // Column1
@@ -168,11 +175,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 450);
+            this.ClientSize = new System.Drawing.Size(824, 366);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Semkin K.M. 23VP1 12-17 lab";

@@ -11,9 +11,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab12-17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab12-17/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/Form1.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12-17.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12-17/obj/Debug/Lab12_17.pdb" afterDir="false" />
@@ -38,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SleepyOwO/Lab12-17.git&quot;,
-    &quot;accountId&quot;: &quot;1e36a454-2cad-447a-ad50-c390c81c257e&quot;
+    &quot;accountId&quot;: &quot;ffa1605e-b66c-421d-9ec9-75bc2ef2e68c&quot;
   }
 }</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -57,19 +58,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Lab12-17" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lab12-17/bin/Debug/Lab12_17.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab12-17/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -79,7 +82,7 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -97,6 +100,9 @@
       <workItem from="1739204009488" duration="4000" />
       <workItem from="1739343202183" duration="5399000" />
       <workItem from="1739357610713" duration="4580000" />
+      <workItem from="1739910599436" duration="260000" />
+      <workItem from="1739911698255" duration="812000" />
+      <workItem from="1739915181312" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="Complete design">
       <option name="closed" value="true" />

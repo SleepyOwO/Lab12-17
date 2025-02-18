@@ -6,6 +6,8 @@ namespace Lab12_17
 {
     public partial class Form1 : Form
     {
+        
+        bool f = false;
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +27,8 @@ namespace Lab12_17
             dataGridView1.Rows[0].Cells[0].Value = true;
             dataGridView1.Rows[1].Cells[0].Value = true;
             dataGridView1.Rows[2].Cells[0].Value = true;
+            dataGridView1.Rows[3].Cells[0].Value = true;
+            dataGridView1.Rows[4].Cells[0].Value = true;
             
         }
 
@@ -39,6 +43,18 @@ namespace Lab12_17
             }
             for (int i = 2; i < dataGridView1.Rows[2].Cells.Count; i++) {
                 dataGridView1.Rows[2].Cells[i].Value = null;
+            }
+            for (int i = 2; i < dataGridView1.Rows[3].Cells.Count; i++) {
+                dataGridView1.Rows[3].Cells[i].Value = null;
+            }
+            for (int i = 2; i < dataGridView1.Rows[4].Cells.Count; i++) {
+                dataGridView1.Rows[4].Cells[i].Value = null;
+            }
+            for (int i = 2; i < dataGridView1.Rows[5].Cells.Count; i++) {
+                dataGridView1.Rows[5].Cells[i].Value = null;
+            }
+            for (int i = 2; i < dataGridView1.Rows[6].Cells.Count; i++) {
+                dataGridView1.Rows[6].Cells[i].Value = null;
             }
 
         }
@@ -59,6 +75,21 @@ namespace Lab12_17
 
             if (Convert.ToBoolean(dataGridView1.Rows[2].Cells[0].Value)) // Включение
                 RunSort(array, InsertionSort, 2);
+
+            if (Convert.ToBoolean(dataGridView1.Rows[3].Cells[0].Value)) // Шелла
+                RunSort(array, ShellSort, 3);
+            
+            int comparisons = 0, swaps = 0;
+            if (Convert.ToBoolean(dataGridView1.Rows[4].Cells[0].Value)) {
+                int[] arrayCopy = (int[])array.Clone();
+                Stopwatch stopwatch = Stopwatch.StartNew();
+                QuickSort(arrayCopy, 0, arrayCopy.Length - 1, ref comparisons, ref swaps);
+                stopwatch.Stop();
+                dataGridView1.Rows[4].Cells[2].Value = comparisons;
+                dataGridView1.Rows[4].Cells[3].Value = swaps;
+                dataGridView1.Rows[4].Cells[4].Value = stopwatch.ElapsedMilliseconds;
+                dataGridView1.Rows[4].Cells[5].Value = IsSorted(arrayCopy);
+            }
         }
         private void RunSort(int[] originalArray, Func<int[], (int, int, long)> sortMethod, int rowIndex)
         {
@@ -138,14 +169,25 @@ namespace Lab12_17
         {
             int comparisons = 0, swaps = 0;
             Stopwatch stopwatch = Stopwatch.StartNew();
-
+            
+            // Находим минимальный элемент и ставим его в начало (барьер)
+            int minIndex = 0;
             for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i] < array[minIndex])
+                    minIndex = i;
+            }
+        
+            // Меняем местами минимальный элемент и первый элемент
+            (array[0], array[minIndex]) = (array[minIndex], array[0]);
+        
+            // Выполняем сортировку вставками
+            for (int i = 2; i < array.Length; i++)
             {
                 int key = array[i];
                 int j = i - 1;
-
-
-                while (j >= 0 && array[j] > key)
+            
+                while (array[j] > key)
                 {
                     comparisons++;
                     array[j + 1] = array[j];
@@ -154,10 +196,89 @@ namespace Lab12_17
                 }
                 array[j + 1] = key;
             }
+            
             stopwatch.Stop();
             return (comparisons, swaps, stopwatch.ElapsedMilliseconds);
         }
+        
+        static void QuickSort(int[] array, int left, int right, ref int comparisons, ref int swaps)
+        {
+            if (left >= right) return;
 
+            int pivot = array[(left + right) / 2];
+            int i = left, j = right;
+
+            while (i <= j)
+            {
+                while (array[i] < pivot)
+                {
+                    comparisons++;
+                    i++;
+                }
+
+                while (array[j] > pivot)
+                {
+                    comparisons++;
+                    j--;
+                }
+
+                if (i <= j)
+                {
+                    if (i != j)
+                    {
+                        swaps++;
+                        (array[i], array[j]) = (array[j], array[i]); // Обмен элементов
+                    }
+                    i++;
+                    j--;
+                }
+            }
+
+            QuickSort(array, left, j, ref comparisons, ref swaps);
+            QuickSort(array, i, right, ref comparisons, ref swaps);
+        }
+        
+        static (int, int, long) ShellSort(int[] array)
+        {
+            int comparisons = 0, swaps = 0;
+            
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            int n = array.Length;
+            int h = 1;
+
+            // Вычисляем начальный шаг по формуле Вирта: h = 3h + 1, пока h < n / 3
+            while (h < n / 3)
+                h = 3 * h + 1;
+
+            // Основной цикл сортировки Шелла
+            while (h >= 1)
+            {
+                for (int i = h; i < n; i++)
+                {
+                    int temp = array[i];
+                    int j = i;
+
+                    while (j >= h && array[j - h] > temp)
+                    {
+                        comparisons++;
+                        array[j] = array[j - h]; // Сдвигаем элемент
+                        j -= h;
+                        swaps++;
+                    }
+
+                    array[j] = temp;
+                    if (j != i) swaps++;
+                }
+
+                h /= 3; // Уменьшаем шаг по формуле Вирта
+            }
+
+            stopwatch.Stop();
+            return (comparisons, swaps, stopwatch.ElapsedMilliseconds);
+        }
+        
         private bool IsSorted(int[] array)
         {
             for (int i = 1; i < array.Length; i++)
